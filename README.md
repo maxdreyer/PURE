@@ -32,6 +32,7 @@ While evaluating feature visualizations using CLIP, our method effectively disen
   - [Render UMAP and Feature Visualizations for PURE](#render-umap-and-feature-visualizations-for-pure)
   - [Evaluate Interpretability of Disentangled Features](#evaluate-interpretability-of-disentangled-features)
   - [Evaluate Alignment to CLIP](#evaluate-alignment-to-clip)
+  - [Citation](#citation)
 
 ## Installation
 
@@ -89,3 +90,16 @@ In the second evaluation experiment,
 we evaluate the alignment of PURE, DINOv2 and activations to CLIP.
 We therefore compute the correlation between distances of embeddings for feature visualization pairs.
 To do so, run the jupyter notebook `experiments/disentangling/distance_correlation.ipynb`.
+
+## Citation
+
+Please feel free to cite our work, if used in your research:
+
+```bibtex
+@article{dreyer2024pure,
+  title={PURE: Turning Polysemantic Neurons Into Pure Features by Identifying Relevant Circuits},
+  author={Dreyer, Maximilian and Purelku, Erblina and Vielhaben, Johanna and Samek, Wojciech and Lapuschkin, Sebastian},
+  journal={arXiv preprint arXiv:2404.06453},
+  year={2024}
+}
+```
